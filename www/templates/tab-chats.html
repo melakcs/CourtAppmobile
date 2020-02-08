@@ -1,0 +1,13 @@
+<ion-view view-title="Schedule">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-text-wrap item-avatar item-icon-right" 
+      ng-repeat="schedule in schedules" href="#/tab/chats">
+       <p class="item-text-wrap">CaseID:{{schedule.CaseID}}</p>
+        <p class="item-text-wrap">SheduleType:{{schedule.SheduleType}}</p>
+        <p class="item-text-wrap">Possible_judment Date:{{schedule.Date}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,11 @@
+<ion-view view-title="Announcements">
+  <ion-content>
+    <ion-list>
+      <ion-item  ng-repeat="row in lists" class="item-text-wrap">
+        <p>Announcement Date:{{row.Date}}</p>
+        <p>Announcement Type:{{row.AnouncementType}}</p>
+		    <p>{{row.Description }}</p>        
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
